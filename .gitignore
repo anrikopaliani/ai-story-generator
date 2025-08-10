@@ -1,0 +1,11 @@
+.vscode
+
+backend/__pycache__/
+backend/*.py[oc]
+backend/build/
+backend/dist/
+backend/wheels/
+backend/*.egg-info
+
+backend/.venv
+backend/.env

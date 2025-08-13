@@ -28,10 +28,10 @@ class StoryBase(BaseModel):
     class Config: 
         from_attributes = True
 
-class create_story_request(BaseModel): 
+class CreateStoryRequest(BaseModel): 
     theme: str
 
-class CompleStoryResponse(StoryBase): 
+class CompleteStoryResponse(StoryBase): 
     id: int 
     create_at: datetime
     root_node: CompleteStoryNodeResponse

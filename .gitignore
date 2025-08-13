@@ -9,3 +9,4 @@ backend/*.egg-info
 
 backend/.venv
 backend/.env
+backend/database.db
